@@ -1,6 +1,6 @@
 # Configuration for Ruby base image
 ARG ALPINE_VERSION=3.10
-ARG RUBY_VERSION=2.6.5
+ARG RUBY_VERSION=2.7.8
 
 FROM ruby:"${RUBY_VERSION}-alpine${ALPINE_VERSION}" as ruby
 
